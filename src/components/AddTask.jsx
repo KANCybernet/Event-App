@@ -59,7 +59,7 @@ console.log(task)
             <form onSubmit={handleAddTask}>
                 <input type="text" placeholder="Enter Todo..." value={task} onChange={(e)=> setTask(e.target.value)}/>
                 <button type='submit'>
-                <span>Add</span>
+                <span>Add.</span>
                 </button>
             </form>
         </div></>
